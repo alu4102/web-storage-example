@@ -54,4 +54,5 @@ function clearLocalStorage() {
     window.localStorage.removeItem("name");
     window.localStorage.removeItem("numvisits");
     visitcounter.innerHTML = "Forgot about your past. Reload the page";
+    alert("reload the page");
 }
