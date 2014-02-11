@@ -16,3 +16,7 @@ input {
 #visitcounter {
 
 }
+
+#rest {
+  display: block;
+}
