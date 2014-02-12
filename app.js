@@ -53,7 +53,7 @@ function storeName() {
 function clearLocalStorage() {
     window.localStorage.removeItem("name");
     window.localStorage.removeItem("numvisits");
-    rest.style.display = "none";
+    rest.style.display = "none";                        //oculta la parte de meter el nombre y los botones
     visitcounter.innerHTML = "Forgot about your past. Reload the page";
     alert("reload the page");
 }
